@@ -3,7 +3,8 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - echo ========PRE_BUILD_COMMAND========
       - ls
 artifacts:
   files:
-    - "*/*"
+    - "**/*"
